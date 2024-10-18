@@ -1,0 +1,16 @@
+{
+  "name": "esmock-coverage-demo",
+  "type": "module",
+  "readmeFilename": "README.md",
+  "description": "demonstrate coverage results using esmock",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iambumblehead/esmock-coverage-demo.git"
+  },  
+  "scripts": {
+    "test-cover": "node --test --experimental-test-coverage --test-coverage-exclude=*.test.js"
+  },
+  "dependencies": {
+    "esmock": "2.6.9"
+  }
+}
